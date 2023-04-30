@@ -1,0 +1,78 @@
+body{
+  background-image: url(/img/universo2.jpg);
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: left right;
+  color: #f0e10e;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+  .logo{
+    max-width: 800px;
+    margin-bottom: 13px;
+}
+  
+  h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+
+  }
+  
+  
+  textarea {
+    width: 80%;
+    height: 100px;
+    font-size: 20px;
+    color: #52b7fa;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 3px rgba(168, 223, 17, 0.849);
+    background-image: url(/img/universo2.jpg);
+    background-color: #1a1414;
+  }
+  
+  button {
+     background-color: #ffb007;
+    color: #700303;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
+    transition: background-color 0.3s ease-out;
+  }
+  
+  button:hover {
+    background-color: #fbff00;
+  }
+  
+  #count-results {
+    margin-top: 20px;
+    font-size: 20px;
+    color:#20ff0c;
+    box-shadow: 0 0 3px rgba(168, 223, 17, 0.849);
+    cursor: pointer;
+    background-color: #1a1414;
+    transition: background-color 0.3s ease-out;
+    
+  }
+  #count-results:hover {
+    background-color: #101111;
+    margin-top: 20px;
+    font-size: 30px;
+    color:#20ff0c;
+  }
